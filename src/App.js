@@ -36,7 +36,7 @@ function App() {
         <button className="btn" type="button" onClick={Handleclickon}><i><MdMic size={26}/></i></button>
         <button className="btn" type="button" onClick={Handleclickoff}><i><MdMicOff size={26}/></i></button>
       </div>
-    <span id="action" ref={refEle}><MdFavorite color="red"/></span>
+    <span id="action" ref={refEle}>Made with&nbsp;<MdFavorite color="red"/>&nbsp;by Utkarsh</span>
     </div>    
   );
 }
