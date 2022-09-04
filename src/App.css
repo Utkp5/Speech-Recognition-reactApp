@@ -1,0 +1,65 @@
+body
+{
+    background-color: rgba(212,215,223,0.782);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main
+{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: rgba(212,215,223,0.782);
+    box-shadow: 12px 12px 24px #7a7c83,-12px -12px 24px #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#text
+{
+    background-color: rgba(212,215,223,0.782);
+    height: 70%;
+    width: 88%;
+    resize: none;
+    border: none;
+    outline: none;
+    font-family: monospace;
+    font-size: larger;
+}
+.btn
+{
+    height: 50px;
+    width: 50px;
+    border: 0.01px solid gray;
+    border-radius: 50%;
+    background-color: rgba(212,215,223,0.782);
+    box-shadow: 8px 8px 18px #757984,-8px -8px 18px #f2f2f2;
+    cursor: pointer;
+}
+
+/* this class will going to add in js */
+.fade  
+{
+    background-color: rgba(184,184,184,0.636);
+    color: rgb(255,255,255);
+    box-shadow: 0px 0px 0px #595d68,-8px -8px 18px #f5f5f5b7;
+    border: 1px solid rgba(255,0,0,0.598);
+}
+/* this class will going to add in js */
+.buttn_div
+{
+    height: 62px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+#action
+{
+    font-family: monospace;
+    font-size: 16px;
+}
