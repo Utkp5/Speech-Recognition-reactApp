@@ -3,14 +3,13 @@ import { MdMic } from "react-icons/md";
 import { MdMicOff } from "react-icons/md";
 import { MdFavorite } from "react-icons/md";
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
-import { useRef, useState } from 'react';
+import { useRef} from 'react';
 
 
 function App() {
 
   const refElement = useRef("");
   const refEle = useRef("");
-  // const [listen,setlisten] = useState(SpeechRecognition);
 
   const {transcript} = useSpeechRecognition();
 
